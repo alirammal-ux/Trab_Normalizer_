@@ -7,7 +7,7 @@
 ## Overview
 During my thesis work, I conducted a comparative evaluation of an ELISA method for the measurement of TRAb (TSH receptor antibodies) against two chemiluminescence immunoassays and one TRACE-based method.
 
-The initial goal was to identify the best instrument to replace the existing ELISA method due to performance limitations. However, the decision could not rely solely on analytical performance. It was also necessary to ensure **result comparability with historical data**, in order to:
+The goal was to identify the best instrument to replace the existing ELISA method due to performance limitations. However, the decision could not rely solely on analytical performance. It was also necessary to ensure **result comparability with historical data**, in order to:
 - preserve patient clinical history  
 - avoid misinterpretation by clinicians  
 
@@ -20,7 +20,8 @@ This leads to:
 
 ![Blant-Altman plot Alinity-DSX](Immagine2.png)
 
-To address this, the project proposes a **latent-variable normalization framework** that allows all instruments to produce results on a **shared, comparable scale**, enabling instrument selection based purely on performance.
+
+Upon completing my thesis, I am now starting to develop a latent-variable normalization framework designed to harmonize outputs across all instruments onto a unified, comparable scale — enabling instrument selection to be driven purely by empirical performance
 
 ---
 
