@@ -5,23 +5,16 @@
 🚧 **Work in progress** 🚧
 
 ## Overview
-During my thesis work, I conducted a comparative evaluation of an ELISA method for the measurement of TRAb (TSH receptor antibodies) against two chemiluminescence immunoassays and one TRACE-based method.
+My thesis work compared an ELISA method for TRAb measurement against two chemiluminescence immunoassays and one TRACE-based platform. The goal was to identify the best candidate for replacing the existing method. Once the thesis was complete, a problem that had been present throughout the work remained unresolved — and I started working on a solution.
 
-The goal was to identify the best instrument to replace the existing ELISA method due to performance limitations. However, the decision could not rely solely on analytical performance. It was also necessary to ensure **result comparability with historical data**, in order to:
-- preserve patient clinical history  
-- avoid misinterpretation by clinicians  
+Even when methods are calibrated against the same international standard (NIBSC 08/204), they frequently produce numerically non-comparable results. This creates a cascade of practical consequences: discontinuity in patient clinical history, difficulty interpreting results across laboratories, and instrument-dependent diagnostic thresholds that cannot be straightforwardly transferred.
 
-This constraint highlighted a key problem: even when methods are calibrated against the same international standard (NIBSC 08/204), they often produce **numerically non-comparable results**.
-
-This leads to:
-- Discontinuity in patient clinical history  
-- Difficulty in interpreting results across laboratories  
-- Instrument-dependent diagnostic thresholds
+This meant that instrument selection could not rely solely on analytical performance metrics. Any replacement method would also need to preserve continuity with historical data, to protect patient clinical history and avoid misinterpretation by clinicians.
 
 ![Blant-Altman plot Alinity-DSX](Immagine2.png)
 
 
-Upon completing my thesis, I am now starting to develop a latent-variable normalization framework designed to harmonize outputs across all instruments onto a unified, comparable scale — enabling instrument selection to be driven purely by empirical performance
+To address this problem, I am developing a latent-variable normalization framework designed to harmonize outputs across all platforms onto a unified, comparable scale — enabling instrument selection to be driven purely by empirical performance.
 
 ---
 
