@@ -1,5 +1,9 @@
 # 🔬 TRAb Cross-Instrument Normalization System
 
+# Status
+
+🚧 **Work in progress** 🚧
+
 ## Overview
 During my thesis work, I conducted a comparative evaluation of an ELISA method for the measurement of TRAb (TSH receptor antibodies) against two chemiluminescence immunoassays and one TRACE-based method.
 
@@ -39,4 +43,6 @@ To address this, the project proposes a **latent-variable normalization framewor
 
 ### 3. Inference
 - Any new measurement, regardless of the instrument, is projected into the **latent space**  
-- Results become directly comparable across platforms  
+- Results become directly comparable across platforms
+
+#
