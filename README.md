@@ -45,4 +45,7 @@ To address this, the project proposes a **latent-variable normalization framewor
 - Any new measurement, regardless of the instrument, is projected into the **latent space**  
 - Results become directly comparable across platforms
 
-#
+---
+## Licence
+The project is under MIT LICENCE
+
